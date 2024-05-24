@@ -1,0 +1,25 @@
+{
+  "name": "abhay.kk",
+  "version": "1.0.0",
+  "description": "abhay's personal website",
+  "main": "js/cli.js",
+  "scripts": {
+    "dev": "http-server -o",
+    "format": "prettier --write 'src/*.js'",
+    "lint": "prettier --check 'src/*.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhay-k47/abhay-k47.github.io.git"
+  },
+  "author": "Abhay Keshari <akabhay9685@gmail.com>",
+  "license": "GNU",
+  "bugs": {
+    "url": "https://github.com/abhay-k47/abhay-k47.github.io/issues"
+  },
+  "homepage": "https://github.com/abhay-k47/abhay-k47.github.io#readme",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "prettier": "^2.0.2"
+  }
+}
